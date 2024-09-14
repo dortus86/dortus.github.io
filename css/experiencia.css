@@ -184,6 +184,12 @@
     font-size: 6rem;
     align-items: center;
   }
+  .formacao-extra .cursos-intensivos ul li {
+    justify-content: start;
+  }
+  .formacao-extra .cursos-intensivos ul li span {
+    margin-left: 50px;
+  }
 }
 @media (max-width: 600px) {
   .experiencia-container {

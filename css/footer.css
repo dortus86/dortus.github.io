@@ -113,5 +113,42 @@ footer {
   }
 }
 
+@media (max-width:800px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-texto {
+    margin: 0;
+    margin-top: 60px;
+    text-align: center;
+  }
+  .footer-copy {
+    margin: 0;
+    margin-top: 60px;
+    align-self: center;
+  }
+}
 
+@media (max-width: 600px) {
+  .footer-texto {
+    font-size: 1rem;
+  }
+  .footer-copy {
+    width: 300px;
+    text-align: center;
+  }
+}
 
+@media (max-width: 500px) {
+  .footer-texto {
+    width: 300px;
+    font-size: 0.8rem;
+  }
+
+  .footer-copy {
+    font-size: 0.5rem;
+  }
+}
